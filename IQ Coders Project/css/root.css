@@ -1,0 +1,18 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --redkit:#b04444;
+  --yellow: #ffe121;
+ 
+}
+
+.darkmode{
+  --white: #ffffff;
+}
+
+.lightmode{
+  --black: #000000;
+}
+
+
+

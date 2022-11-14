@@ -1,0 +1,171 @@
+
+
+body{
+  background: var(--black);
+  animation: transitionIn 1.5s;
+  background-color: var(--black);
+  font-size: 16px;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+
+}
+
+header {
+  display: block;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid  var(--white);
+}
+
+.logo{
+  width: auto;
+  height: 140px;
+  float: left;
+  margin-left: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar{
+  width: 650px;
+  height: 78px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 75px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: var(--white);
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  margin-left: 40px;
+  
+}
+
+section{
+  width: 50%;
+  height: 600px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img{
+  width: 90%;
+  height: 90%;
+}
+
+article{
+  width: 50%;
+  height: 600px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+article > h1{
+  width: 90%;
+  color: var(--white);
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 2.9em;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+}
+
+article > h2{
+  width: 90%;
+  color: var(--white);
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+}
+
+
+
+
+
+footer{
+  width: 100%;
+  height: 40px;
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction:row;
+}
+
+small{
+  color: var(--white);
+  font-size: 1em;
+  letter-spacing: 1.5px;
+  float: left;
+  font-family: 'Lato', sans-serif;
+  margin-left: 75px;
+}
+
+.icons{
+  float: right;
+  margin-right: 75px;
+
+}
+
+.fa-brands{
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  color: var(--white);
+  font-size: 1.8em;
+  padding-left: 10px;
+}
+
+a > i:hover{
+  color: var(--redkit);
+  transition: 0.5s;
+}
+
+a:hover  {
+  color: var(--redkit);
+  transition: 0.5s;
+}
+
+.active{
+  color: var(--redkit);
+}
+
+
+
